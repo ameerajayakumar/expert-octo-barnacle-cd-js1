@@ -3,7 +3,7 @@ const person = {
   jobTitle: 'Doctor',
   email: 'nm@dr.com',
   isVerified: false,
-  moreDescription: {
+  moreDescription: { // sub properties of objects can be accessed by chaining together the dot notation & bracket.
     hasInsure: false,
   },
 };
