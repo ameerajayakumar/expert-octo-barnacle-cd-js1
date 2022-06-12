@@ -9,8 +9,8 @@ const person = {
 };
 console.log(`${person.name} ${person.isVerified}`);
 
-person.isVerified = true;
-delete person.name;
+person.isVerified = true; // editing the object
+delete person.name; // deleting object
 person.firstName = 'Bissi';
 person.lastName = 'Nessi';
 
@@ -29,7 +29,7 @@ console.log(jobTitle);
 console.log(em);
 console.log(hasInsure); // nested object
 
-const newUser = person;
+const newUser = person; // copying an object
 console.log(newUser);
 newUser.name = 'Ameera';
 console.log(newUser);
