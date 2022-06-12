@@ -15,8 +15,7 @@ function updateTodo(index, newItem) {
 }
 
 function getTodo(index) {
-  if (index === null) {
-    return todoDB;
-  } else return todoDB[index];
+  if (index) {
+    return todoDB[index];
+  } else return todoDB;
 }
-
