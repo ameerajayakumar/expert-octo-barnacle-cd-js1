@@ -12,6 +12,6 @@ const dollar = (value) => '$' + value;
 
 const euro = (value) => '€' + value;
 
-console.log(withCurrencyPrefix(total, rupee)); //₹10
+console.log(withCurrencyPrefix(20, rupee)); //₹10
 
-console.log(withCurrencyPrefix(total, dollar)); //$10
+console.log(withCurrencyPrefix(30, dollar)); //$10
