@@ -22,5 +22,4 @@
 
 # Projects
 
-1. [Currently Reads](https://aesthetic-heliotrope-b2a9f1.netlify.app/){:target="\_blank"}
-   <a href="http://example.com/" target="_blank">Hello, world!</a>
+1. [Currently Reads](https://aesthetic-heliotrope-b2a9f1.netlify.app/)
