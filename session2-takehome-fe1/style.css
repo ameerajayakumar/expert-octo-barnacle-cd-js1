@@ -1,0 +1,15 @@
+.book-title {
+  color: cadetblue;
+}
+.book-author {
+  color: darkgray;
+}
+.book-sum {
+  color: gray;
+}
+#author {
+  color: blueviolet;
+}
+.link-item:hover {
+  color: cadetblue;
+}
