@@ -3,9 +3,8 @@
   margin: auto;
   width: 256px;
   height: 256px;
-  position: relative;
   /* Position properties below this line */
-
+  position: relative;
   /* Position properties above this line */
 }
 
@@ -15,26 +14,29 @@
   background-color: #d7584c;
   /* Position properties below this line */
   position: absolute;
-  right: 50%;
+  /* top: 2rem; */
+  right: 0;
   /* Position properties above this line */
 }
 
 #child-2 {
   width: 2rem;
   height: 2rem;
-  background-color: #697ff0;
+  background-color: #69f070;
   /* Position properties below this line */
   position: absolute;
-  left: 50%;
+  /* left: 2rem; */
+  bottom: 0;
   /* Position properties above this line */
 }
 
 #child-3 {
   width: 2rem;
   height: 2rem;
-  background-color: #58ff69;
-  position: static;
+  background-color: #589eff;
   /* Position properties below this line */
-
+  position: absolute;
+  bottom: 0;
+  right: 0;
   /* Position properties above this line */
 }
