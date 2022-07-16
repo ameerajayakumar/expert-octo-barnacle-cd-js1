@@ -1,0 +1,111 @@
+/* position properties  */
+
+.static {
+  background-color: darkblue;
+  width: 100px;
+  height: 200px;
+
+  /* we wont be able to use the below properties in default (static) */
+  top: 100px;
+  bottom: 100px;
+  left: 10px;
+  right: 90px;
+  z-index: 1;
+}
+
+/* .grandparent {
+  position: fixed;
+  top: 200px;
+  width: 100%;
+} */
+
+.parent {
+  position: relative;
+  background: pink;
+}
+
+/* relative : is same as static we can use offsets  */
+/* in relative poition: the item(div) is still in the document flow */
+/* .child1 {
+  position: relative;
+  width: 90%;
+  height: 50px;
+  margin-left: 10px;
+  background: darkgoldenrod;
+
+  top: 10;
+  bottom: 100px;
+  left: 10px;
+  right: 90px;
+} */
+
+/* where to use it 
+1. to give z-index 
+2. to be container for absolute position
+*/
+
+/* absolute: it behaves similar to relative but the element is not taken out from the document flow */
+/*  top botoom left right : will take reference of
+  a parent (who has position other then static) otherwise body 
+  is the last referece */
+
+/* .child1 {
+  position: absolute;
+  width: 10%;
+  height: 50px;
+  margin-left: 10px;
+  background: darkgoldenrod;
+
+  top: 0px;
+  bottom: 100px;
+  left: 10px;
+  right: 90px;
+} */
+
+/* fixed: something like absolute */
+/* removes from document flow but positioned relative to to screen */
+/* fixed position is the extreme case of absolute 
+(when parent and grandparents has static position) */
+
+/* .child1 {
+  position: fixed;
+  width: 10%;
+  height: 50px;
+  margin-left: 10px;
+  background: darkgoldenrod;
+
+  top: 0px;
+  bottom: 100px;
+  left: 10px;
+  right: 90px;
+} */
+
+/* sticky: combination fixed and static */
+
+.child1 {
+  position: sticky;
+  width: 90%;
+  height: 50px;
+  margin-left: 10px;
+  background: rgb(97, 75, 211);
+
+  top: 0;
+  /* top: 0;
+  bottom: 100px;
+  left: 10px;
+  right: 90px; */
+}
+
+.child2 {
+  width: 90%;
+  height: 50px;
+  margin-left: 10px;
+  background: darkcyan;
+}
+
+.child3 {
+  height: 50px;
+  width: 90%;
+  margin-left: 10px;
+  background: darkkhaki;
+}

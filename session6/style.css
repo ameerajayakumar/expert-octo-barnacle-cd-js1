@@ -10,21 +10,19 @@
 }
 
 #child-1 {
-  width: 50;
+  width: 2rem;
   height: 2rem;
-  background-color: #ff8a80;
+  background-color: #d7584c;
   /* Position properties below this line */
   position: absolute;
-  z-index: 10;
   right: 50%;
-
   /* Position properties above this line */
 }
 
 #child-2 {
   width: 2rem;
   height: 2rem;
-  background-color: #69f0ae;
+  background-color: #697ff0;
   /* Position properties below this line */
   position: absolute;
   left: 50%;
@@ -34,7 +32,7 @@
 #child-3 {
   width: 2rem;
   height: 2rem;
-  background-color: #ffee58;
+  background-color: #58ff69;
   position: static;
   /* Position properties below this line */
 
