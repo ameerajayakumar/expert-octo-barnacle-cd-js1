@@ -1,0 +1,24 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.sidebar {
+  border: 1px solid #dadada;
+  border-left: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  margin: 1rem;
+  padding: 2rem 0;
+  width: 10rem;
+  height: 80vh;
+}
+
+.sb-heading {
+  text-transform: uppercase;
+  color: blueviolet;
+  padding: 0 0.5rem;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.sb-item {
+}

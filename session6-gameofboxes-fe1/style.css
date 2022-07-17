@@ -15,7 +15,7 @@
   /* Position properties below this line */
   position: absolute;
   /* top: 2rem; */
-  right: 0;
+
   /* Position properties above this line */
 }
 
@@ -26,8 +26,8 @@
   /* Position properties below this line */
   position: absolute;
   /* left: 2rem; */
-  bottom: 0;
-  /* Position properties above this line */
+  top: 20px;
+  left: 20px; /* Position properties above this line */
 }
 
 #child-3 {
@@ -36,7 +36,7 @@
   background-color: #589eff;
   /* Position properties below this line */
   position: absolute;
-  bottom: 0;
-  right: 0;
+  top: 40px;
+  left: 40px;
   /* Position properties above this line */
 }
