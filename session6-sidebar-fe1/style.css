@@ -21,4 +21,12 @@ body {
 }
 
 .sb-item {
+  padding: 0.5rem;
+  margin-bottom: 4px;
+}
+
+.sb-item:hover {
+  background-color: #f0f0f0;
+  font-weight: 600;
+  cursor: pointer;
 }
