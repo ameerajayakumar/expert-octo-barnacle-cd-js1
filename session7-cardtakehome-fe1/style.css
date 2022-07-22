@@ -6,7 +6,6 @@ body {
 }
 .card {
   min-width: 128px;
-  max-width: 256px;
   min-height: 128px;
   border-radius: 10px;
   background: rgb(255, 250, 250);
@@ -52,4 +51,18 @@ p {
 .card-author a:visited {
   text-decoration: none;
   color: rgb(109, 109, 235);
+}
+
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+  }
+  .card-imgage { /*changed name*/
+    width: 40%;
+  }
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
