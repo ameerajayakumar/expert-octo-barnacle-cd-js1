@@ -28,3 +28,15 @@ In this module, you will be working on the Landing Page of the QTrip website.
 
 You will understand how to come up with a layout for a given mock-up and start adding each element of this layout one by one.
 You will start off with a basic html file for this page and start constructing the page on top of it.
+
+These are the files and directories you’ll be working with in this ME
+
+
+HTML files to define the structure of
+
+Landing page - index.html
+Adventures Grid Page - pages/adventures/index.html
+Adventure Details Page - pages/adventures/resort/index.html
+
+css/styles.css is the main CSS stylesheet you’ll be using for all the 3 web pages.
+assets folder contains the images needed for the web pages. You will not be modifying this folder. You’ll only be linking these images in the pages.
