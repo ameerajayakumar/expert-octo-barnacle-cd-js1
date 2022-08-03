@@ -81,8 +81,7 @@ footer {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../assets/hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/hero.jpg');
 
   /* TODO: MODULE_LAYOUT */
   /* 1. Set a specific height. */
@@ -117,10 +116,14 @@ footer {
 .adventure-card {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  cursor: pointer;
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  object-fit: cover;
+  height: 30vh;
+  width: 100%;
 }
 .adventure-card img:hover {
   /* TODO: MODULE_ADVENTURES_GRID */
