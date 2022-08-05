@@ -176,7 +176,7 @@ hr {
 @media only screen and (min-width: 992px) {
   /* For desktops phones: */
   #reservation {
-    width: 400px;
+    width: 315px;
     position: fixed;
   }
 }
